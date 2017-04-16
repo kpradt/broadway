@@ -11,16 +11,7 @@ body {
 
   background-image: url("../images/the-flatiron-building.png");
 
-}
-
-#tagline {
-
-  background-image: url("../images/the-flatiron-building.png");
-  font-size: 23px;
-  font-weight: bold;
-  color: white;
-
-}
+  }
 
 h1 { 
 
@@ -29,14 +20,38 @@ h1 {
   color: white
   
   }
+  
+nav { 
 
-h2 {}
+  font-size: 18px;
+  color: white; 
+  
+  }
 
-h3 {}
+a:link { color: white; }
+a:visited { color: white; }
+a:hover { color: black; }  /*not called for in redline, but there should ALWAYS be feedback 
+ on a link so that users know it IS a link */
+a:active { color: white; }
 
-nav { color: white;}
+h2 {
 
-ul {}
+  font-size: 23px;
+  font-weight: bold;
+  
+  }
+
+#tagline {
+
+  background-image: url("../images/the-flatiron-building.png");
+  font-size: 23px;
+  font-weight: bold;
+  color: white;
+
+  }
+
+
+p { font-size: 14px; }
 
 .footer { 
 
@@ -45,4 +60,4 @@ ul {}
   color: white;
   background-color: dimgray;
   
-}
+  }
