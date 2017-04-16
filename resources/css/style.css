@@ -10,6 +10,7 @@ body {
 #header {
 
   background-image: url("../images/the-flatiron-building.png");
+  background-position: center;
 
   }
 
@@ -25,13 +26,15 @@ nav {
 
   font-size: 18px;
   color: white; 
+  font-weight: bold;
+  line-height: 36px;  
   
   }
 
 a:link { color: white; }
 a:visited { color: white; }
 a:hover { color: black; }  /*not called for in redline, but there should ALWAYS be feedback 
- on a link so that users know it IS a link */
+ on a link */
 a:active { color: white; }
 
 h2 {
@@ -44,6 +47,7 @@ h2 {
 #tagline {
 
   background-image: url("../images/the-flatiron-building.png");
+  background-position: center;
   font-size: 23px;
   font-weight: bold;
   color: white;
